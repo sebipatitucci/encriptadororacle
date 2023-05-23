@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador</title>
+    <link rel="stylesheet" href="challenge.css">
+    <script src="https://kit.fontawesome.com/eb576a252a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Rampart+One&family=Sedgwick+Ave+Display&family=Shojumaru&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./4esferas.png" type="image/x-icon">
+</head>
+<body>
+    <img src="./4esferas.png" alt="" id="estrella4" class="animate__animated animate__fadeInLeft">
+    <img src="./goku.png" alt="" id="goku" class="animate__animated animate__fadeIn">
+    <h1 class="animate__animated animate__backInLeft">Encriptador de texto</h1>
+    <div class="container-main">
+        <div class="container-msg">
+            <textarea name="" id="txtMensaje" cols="30" rows="10" placeholder="Escriba un mensaje..."></textarea> 
+        </div>
+        <div class="container-res">
+            <textarea name="" id="txtResultado" cols="30" rows="10" disabled></textarea>
+            <button id="btnCopiar">Copiar</button>
+        </div>  
+    </div>
+    <p id="advice"><i class="fa-sharp fa-solid fa-circle-exclamation"></i> No se permiten mayúsculas o carácteres especiales</p>
+    <div class="container-btn">
+        <button id="btnEncriptar">Encriptar</button>
+        <button id="btnLimpiar">Limpiar</button>
+        <button id="btnDesencriptar">Desencriptar</button> 
+    </div>
+    
+  
+    <script src="challenge.js"></script>
+</body>
+</html>

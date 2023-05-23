@@ -1,0 +1,12 @@
+Primero pasar los datos de HTML a JS.
+Funcion encriptar:
+Traer el .value del input mensaje.
+Hacer 5 .replaceAll("", "").replaceAll("", "").replaceAll("", "").replaceAll("", "").replaceAll("", "") reemplazando las vocales por las palabras requeridas, y pasamos el valor al input del resultado. El orden es E, I, O, A, U.
+Funcion desencriptar:
+Lo mismo pero cambiando las palabras y las vocales de lado, el replace es al revés, y pasamos el valor al input del resultado.
+Pasar las funciones a los onclicks de los botones encriptar y desencriptar.
+Funcion copiar:
+navigator.clipboard.writetext(le pasamos el valor del input resultado).
+Poner el input mensaje vacio y hacer focus en el.
+
+

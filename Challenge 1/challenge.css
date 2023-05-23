@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #070f16;
+
+}
+
+h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+    color: aqua;
+    text-shadow: 6px 6px 15px black;
+    font-family: 'shojumaru';
+}
+
+.container-main{
+    display: flex;
+    height: 300px;
+
+}
+
+.container-msg{
+    width: 70%;
+    padding-top: 50px;
+    
+}
+
+.container-msg textarea{
+    width: 500px;
+    display: block;
+    margin-left: 150px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: aqua;
+    border: 0; 
+    outline: 0;
+    background: transparent;
+    border-radius: 10px;
+} 
+
+
+.container-msg textarea::placeholder{
+    color: aqua; 
+}
+
+.container-msg textarea:focus{
+    box-shadow: 2px 2px 20px 5px aqua;
+    border: 0;
+}
+
+.container-res{
+    width: 50%;
+    padding-top: 50px;
+}
+
+.container-res textarea{
+    width: 400px;
+    font-size: 20px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background: transparent;
+    color: aqua;
+    border: none; 
+    background: transparent;
+}
+
+.container-res textarea:focus{
+    box-shadow: 2px 2px 20px 5px aqua;
+}
+
+.container-res button{
+    position: relative;
+    top: 30px;
+    left: 180px;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'shojumaru';
+    background: transparent;
+    border: 2px solid aqua;
+    border-radius: 7px;
+    color: aqua;
+    transition: 1.5s background, 1s color, 1s border, 1s box-shadow;
+    cursor: pointer;
+    display: none;
+}
+
+.container-res button:hover{
+    background-color: aqua;
+    color: black;
+    border: solid 2px black;
+    box-shadow: 2px 2px 10px 5px black;
+}
+
+#advice{
+    margin-top: 20px;
+    margin-left: 150px;
+    color: rgb(111, 160, 171);
+}
+
+.container-btn{
+    width: 100%;
+    text-align: center;
+}
+
+.container-btn button{
+    margin-top: 100px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'shojumaru';
+    margin-left: 30px;
+    background: transparent;
+    border-radius: 10px;
+    transition: 1.5s background, 1s color, 1s border, 1s box-shadow;
+    color: aqua;
+    border: 2px solid rgb(10, 181, 181);
+    cursor: pointer;
+}
+
+.container-btn button:hover{
+    background-color: aqua;
+    color: black;
+    border: solid 2px black;
+    box-shadow: 2px 2px 20px 5px black;
+}
+
+#goku{
+    position: absolute;
+    right: 70px;
+    top: 100px;
+    height: 400px;
+    filter: drop-shadow(2px 2px 8px aqua);
+}
+
+#estrella4{
+    position: absolute;
+    width: 100px;
+    top: 30px;
+    left: 70px;
+    filter: drop-shadow(2px 2px 10px black);
+}
